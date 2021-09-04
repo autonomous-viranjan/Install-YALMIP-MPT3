@@ -1,5 +1,5 @@
 %% YALMIP
-cd C:\Users\viran\Documents\MATLAB\YALMIP
+cd C:\...\MATLAB\YALMIP
 urlwrite('https://github.com/yalmip/yalmip/archive/master.zip','yalmip.zip');
 unzip('yalmip.zip','yalmip')
 addpath(genpath([pwd filesep 'yalmip']));
